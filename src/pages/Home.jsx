@@ -87,8 +87,8 @@ export default function Home() {
             <div className="text-gray-700 text-lg text-center">
               By ingredient:
             </div>
-            <div className="flex flex-row">
-              <input className="border border-gray-500 rounded-sm text-gray-800" ref={ref}/>
+            <div className="flex flex-row w-3/5">
+              <input className="border border-gray-500 rounded-sm text-gray-800 w-4/5" ref={ref}/>
               <button className="ml-2 bg-pink-600 text-[10px] h-7 rounded-sm" onClick={handleClickIngredient}>
                 <i className="fa-solid fa-magnifying-glass"></i>
               </button>
