@@ -74,16 +74,16 @@ export default function Home() {
         </div>
       </div>
       <div className="bg-white bg-opacity-90 flex-grow h-fit">
-        <div className="border-b border-gray-400 min-h-[5vh] flex flex-wrap px-0 md:px-5 py-3 items-center justify-between">
-          <div className="flex flex-row md:mb-0 mb-5 mx-5 space-x-5">
+        <div className="border-b border-gray-400 min-h-[5vh] flex flex-wrap px-0 md:px-3 py-3 items-center justify-between">
+          <div className="flex flex-row md:mb-0 mb-5 mx-5 space-x-3">
             <div className="md:text-lg text-gray-700">Search by letter:</div>
-            <div className="flex flex-wrap lg:flex-row space-x-2 md:space-x-3 lg:space-x-5 font-semibold xl:text-xl lg:text-xl md:text-lg sm:text-md">
+            <div className="flex flex-wrap lg:flex-row space-x-2 md:space-x-3 font-semibold md:text-lg text-md">
               {alphabet.map((letter) => (
                 <div className={chosenLetter === letter ? "text-pink-700 cursor-pointer" : "text-gray-700 cursor-pointer"} onClick={() => handleClickLetter(letter)}>{letter}</div>
               ))}
             </div>
           </div>
-          <div className="flex flex-row items-center content-center space-x-5 border-t border-gray-400 md:border-none py-3 m-auto px-4 md:py-0">
+          <div className="flex flex-row items-center content-center space-x-3 border-t border-gray-400 md:border-none py-3 m-auto px-4 md:py-0">
             <div className="text-gray-700 text-lg text-center">
               By ingredient:
             </div>

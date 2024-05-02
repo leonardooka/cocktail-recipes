@@ -32,7 +32,7 @@ export default function Favorites() {
               className="flex flex-col border border-gray-400 rounded-sm items-center shadow-md bg-white cursor-pointer"
             >
               <Link to={`/cocktail/${drink.idDrink}`}>
-                <img className="w-48" src={drink.strDrinkThumb} />
+                <img className="w-full" src={drink.strDrinkThumb} />
                 <div className="p-3">
                   <div className="text-gray-500">
                     {drink.strCategory ? drink.strCategory : null}
